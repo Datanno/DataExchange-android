@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.datanno.data.exchange.widget.TitleBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/icon_page_bg"
+    android:orientation="vertical"
+    app:showStatusBar="true"
+    app:showStatusBarViewColor="@color/transparent"
+    app:titleBarBg="@color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp">
+
+        <TextView
+            android:id="@+id/txt_login_china_en"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_activity_china_en"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txt_login_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/register_activity_title"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:gravity="center">
+
+        <com.xiong.common.lib.view.CircleImageView
+            android:id="@+id/crv_login_user_icon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/icon_account_image"
+            app:border_color="@color/transparent"
+            app:border_width="0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_login_content_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_item_lefe_rigth"
+            android:layout_marginRight="@dimen/margin_item_lefe_rigth"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edt_input_transparent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:id="@+id/txt_activity_login_countrycode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:drawableEnd="@mipmap/icon_arrow_wite_down"
+                    android:drawablePadding="6dp"
+                    android:drawableRight="@mipmap/icon_arrow_wite_down"
+                    android:gravity="center_vertical"
+                    android:text="+86"
+                    android:textColor="@color/white" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/edt_login_activity_edittext_username"
+                        style="@style/style_login_edittext1"
+                        android:digits="1234567890"
+                        android:hint="@string/login_activity_edittext_username"
+                        android:inputType="phone"
+                        android:maxLength="11" />
+
+                    <ImageView
+                        android:id="@+id/img_login_activity_edittext_username_detele"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical|end"
+                        android:src="@mipmap/icon_login_user_detele_wite"
+                        android:visibility="gone" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_item_top"
+                android:background="@drawable/edt_input_transparent">
+
+                <EditText
+                    android:id="@+id/edt_login_activity_edittext_password"
+                    style="@style/style_login_edittext1"
+                    android:hint="@string/login_activity_edittext_pwd"
+                    android:inputType="textPassword"
+                    android:maxLength="16" />
+
+                <CheckBox
+                    android:id="@+id/rb_login_activity_edittext_password_detele"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_marginEnd="17dp"
+                    android:layout_marginRight="17dp"
+                    android:button="@null"
+                    android:drawableEnd="@drawable/rbt_login_pwd_bg"
+                    android:drawableRight="@drawable/rbt_login_pwd_bg"
+                    android:visibility="gone" />
+            </FrameLayout>
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/login_activity_textview_forget_pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="14dp"
+            android:gravity="end"
+            android:text="@string/login_activity_text_forget_pwd"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/login_activity_button_login"
+            style="@style/common_button"
+            android:text="@string/login_activity_button_login" />
+
+
+    </LinearLayout>
+
+
+</com.datanno.data.exchange.widget.TitleBar>

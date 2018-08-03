@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Datanno</string>
+
+    <string name="title_bar_back">close</string>
+    <string name="chinese">chinese</string>
+    <string name="english">english</string>
+
+    <!---->
+    <string name="app_system_anguage">Please quit App to get back in the successful system language switch</string>
+
+
+    <!-- dialog -->
+    <string name="dialog_common_title_text">reminder</string>
+    <string name="dialog_common_button_sure">sure</string>
+    <string name="dialog_common_button_cancle">cancel</string>
+    <string name="dialog_choose_picture_button_camera">photograph</string>
+    <string name="dialog_choose_picture_button_album">selection from handset album</string>
+    <string name="dialog_content_quit_system">do you confirm the exit application?</string>
+
+
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+
+    <!-- login and register -->
+    <string name="login_activity_title">login</string>
+    <string name="login_activity_account">accounts</string>
+    <string name="login_activity_pwd">password</string>
+    <string name="login_activity_button_login">login</string>
+    <string name="login_activity_button_register">register</string>
+    <string name="login_activity_china_en">中文/EN</string>
+
+    <string name="register_activity_title">register</string>
+    <string name="register_activity_button">register</string>
+
+    <string name="login_activity_toast_failed_freeze">login failure！</string>
+    <string name="login_activity_edittext_username">please enter your cell phone number</string>
+    <string name="login_activity_edittext_pwd">please enter your login password</string>
+    <string name="login_activity_text_forget_pwd">forget the password?</string>
+</resources>

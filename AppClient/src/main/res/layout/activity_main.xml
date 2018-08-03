@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main_show"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_common_background"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/main_activity_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+
+
+    <RadioGroup
+        android:id="@+id/main_grp_show1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/title_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="4dp">
+
+        <RadioButton
+            android:id="@+id/rbt_main_home"
+            style="@style/style_main_rbt"
+            android:drawableTop="@drawable/rbt_selector_choiceness_bg" />
+
+
+        <RadioButton
+            android:id="@+id/rbt_main_investment"
+            style="@style/style_main_rbt"
+            android:drawableTop="@drawable/rbt_selector_invest_bg" />
+
+        <RadioButton
+            android:id="@+id/rbt_main_more"
+            style="@style/style_main_rbt"
+            android:drawableTop="@drawable/rbt_selector_more_bg" />
+    </RadioGroup>
+
+</LinearLayout>

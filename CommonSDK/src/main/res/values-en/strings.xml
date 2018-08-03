@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_sure">Sure</string>
+    <string name="dialog_cancle">Cancel</string>
+    <string name="dialog_fish">Complete</string>
+    <string name="dialog_photograph">photograph</string>
+    <string name="dialog_select_from_the_album">select_from_the_album</string>
+    <string name="dialog_title">Reminder</string>
+
+    <!--异常提示-->
+    <string name="exception_no_authority">Sorry, your account has expired Please login again</string>
+    <string name="exception_json_error">Server exception Please try again later</string>
+    <string name="exception_netword_error">Network exception, please check the network and try again</string>
+    <string name="exception_netword_persiom">You refused to change the permissions</string>
+    <string name="app_prty_name">BOTTOS</string>
+
+    <string name="common_empty_data">no data</string>
+
+</resources>

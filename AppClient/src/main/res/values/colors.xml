@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--手势密码-->
+    <color name="gesture_background">#00b7eb</color>
+    <color name="gesture_line">#0066a7</color>
+    <color name="gesture_error_line">@color/white</color>
+    <color name="gesture_tip">#ff3a00</color>
+</resources>

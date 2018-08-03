@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.datanno.data.exchange.common.refresh.MyPtrFrameLayout
+        android:id="@+id/recycler_with_refresh_ptr_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.datanno.data.exchange.common.recycler.LoadMoreRecyclerView
+            android:id="@+id/recycler_with_refresh_list_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="8dp" />
+
+    </com.datanno.data.exchange.common.refresh.MyPtrFrameLayout>
+
+</LinearLayout>
